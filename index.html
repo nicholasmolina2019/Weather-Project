@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script  src="js/script.js" defer></script>
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Weather Forecast</title>
-</head>
-<body>
-   
+  </head>
+  <body>
+      <div class = "box">
+    <div class="weather">
+    <h2 id="location">Weather in Dallas</h2>
+    <h1 class="temperature">90°F</h1>
+    <div id="weatherForecast"><h3>Forecast</h3></div>
+</div>
+    <div class="input">
+      <input type="text" class="city" placeholder="Enter A City" />
+      <input type="submit" value="Submit City" />
+    </div>
+    </div>
 
-    <div class = "weather-forecast">Sunny</div>
-    <div class = "temp-forecast"> Degrees</div>
-    <div class= "location">City</div>
-    <input class="input" type="text" placeholder="Enter A City">
-    <button class = "submit">Search</button>
-    
-</body>
+  </body>
 </html>
