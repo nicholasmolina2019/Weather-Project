@@ -25,13 +25,11 @@
          }
        }
 )
-   });
-
-     
+   });   
      
 function show(data){
 
-  return "Weather in " + " " +data.name+ "  is "+"  "+data.main.temp+" °F"
+  return "Temperature in " + " " +data.name+ "  is "+"  "+data.main.temp+" °F"
   
 }
 
