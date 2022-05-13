@@ -1,4 +1,4 @@
-# Weather App
+# Nicks Weather Forecast
 
 #### A web app designed to log weather in any city.
 <img src="images/home.png" alt="Home Page Welcome Screen"/>
