@@ -29,7 +29,7 @@
      
 function show(data){
 
-  return "Temperature in " + " " +data.name+ "  is "+"  "+data.main.temp+" °F"
+  return `Temperature in  ${data.name}  is   ${data.main.temp} °F`
   
 }
 
