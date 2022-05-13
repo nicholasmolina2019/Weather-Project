@@ -34,8 +34,8 @@ body {
 }
 .location,
 .temperature {
-  margin: 10px;
-  margin-bottom: 0.4em;
+  margin: 0px;
+  margin-bottom: 0.7em;
   text-align: center;
 }
 input[type="text"] {

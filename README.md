@@ -31,6 +31,8 @@ A simple weather app that is able to log weather in any city.
 
 * You can view the repository:
 [Github.com](https://github.com/nicholasmolina2019/Weather-Project)
+* You can view this site:
+[NicksWeatherApp](https://www.weatherprojectnick.com/)
     
 ## Works Cited:
 * https://openweathermap.org/current#data
