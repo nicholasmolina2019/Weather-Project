@@ -1,63 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background:rgb(255, 255, 255);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
 }
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.box{
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 25px rgba(122, 122, 122, 0.6);
+  border-radius: 3px;
+}
 
-    position: absolute;
-    top:50%;
-    left: 50%;
-    padding:50px;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 15px 25px rgba(122, 122, 122, 0.6);
-    border-radius: 3px;
-}
-
- 
 .location {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-.weather{
-    align-items: center;
-    justify-content: center;
-    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather {
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.location,
+.temperature {
+  margin: 10px;
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+input[type="text"] {
+  outline: 1000px;
+  width: 75%;
+  background: white;
+  padding: 0 0.1rem;
+  border-radius: 5%;
+  transition-property: width, border-radius;
+  position: relative;
+}
+
+.submit {
+  outline: 1000px;
+  background: white;
+  padding: 0 0.1rem;
+  border-radius: 5%;
+  font-size: 14px;
+  position: relative;
+}
+.image{
+    position: absolute;
+    height: auto;  
+    top: 50%;
+    left: 39%;
+    padding: 50px;
+    transform: translate(-100%, -100%);
 
 }
-.location,.temperature{
-    margin: 10px;;
-    margin-bottom: 0.4em;
-    text-align:center;
-
-
-}
- input[type="text"]{
-
-    outline: 1000px;
-    width:75%;
-    background: white;
-    padding: 0 0.1rem;
-    border-radius: 5%;
-    transition-property: width, border-radius;
-    position:relative;
- }
-
- .submit{
-     outline: 1000px;
-     background: white;
-     padding: 0 0.1rem;
-     border-radius: 5%;
-    font-size: 14px;
-    position: relative;
- }
