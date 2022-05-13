@@ -22,6 +22,7 @@ A simple weather app that is able to log weather in any city.
 
 ## Whiteboard Images
 * All Sketches are on figma
+<img src="images/Frame1.png" alt="Fireframe"/>
 
 ## <a name="nextsteps"></a>Project Next Steps
 * Users will be able to see current weather on all views
