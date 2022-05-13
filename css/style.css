@@ -65,3 +65,21 @@ input[type="text"] {
     transform: translate(-100%, -100%);
 
 }
+
+.search-city{
+    outline: 1000px;
+    background: white;
+    padding: 0 1rem;
+    border-radius: 10%;
+    font-size: 14px;
+    position: relative;
+
+}
+::placeholder { 
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+  }
+  .submit{
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+  }
