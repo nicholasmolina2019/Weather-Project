@@ -9,7 +9,12 @@
        //https://seir-batch.netlify.app/frontend-fundamentals/week-2/day-5/lecture-materials/intro-to-ajax-and-javascript-promises/
        //https://api.jquery.com/jquery.ajax/
        type:"GET",
-       dataType: "json"
+       dataType: "json",
+       success:function(data){
+       const weather=show(data);
+       $(".temperature").html(weather);
+
+       }
       })
      }
 
