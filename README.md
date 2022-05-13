@@ -3,6 +3,7 @@
 #### A web app designed to log weather in any city.
 <img src="images/home.png" alt="Home Page Welcome Screen"/>
 <img src="images/temp.png" alt="Temperature Display"/>
+<img src="images/display.gif" alt="Temperature Display Gif"/>
 
 ## Description
 A simple weather app that is able to log weather in any city.
